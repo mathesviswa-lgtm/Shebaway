@@ -4,64 +4,137 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SHEBA WAY</title>
+
 <style>
 body{
-font-family:Arial,sans-serif;
 margin:0;
-padding:0;
+font-family:Arial,sans-serif;
 background:#f5f7fb;
+color:#222;
 }
-header{
+
+.hero{
 background:linear-gradient(135deg,#0A1F44,#7B2FF7);
 color:white;
 text-align:center;
-padding:60px 20px;
+padding:80px 20px;
 }
-section{
-padding:30px;
+
+.hero h1{
+font-size:45px;
+margin-bottom:10px;
 }
+
+.hero p{
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:white;
+color:#0A1F44;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.section{
+padding:40px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
 .card{
 background:white;
 padding:20px;
-margin:15px 0;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+text-align:center;
 }
+
 footer{
 background:#0A1F44;
 color:white;
 text-align:center;
-padding:15px;
+padding:20px;
+margin-top:40px;
 }
 </style>
 </head>
+
 <body>
 
-<header>
-<img src="logo.png" alt="SHEBA WAY Logo" width="150">
+<section class="hero">
 <h1>SHEBA WAY</h1>
 <p>Your Way to Opportunities</p>
-</header>
+<a href="#" class="btn">Coming Soon 🚀</a>
+</section>
 
-<section>
-<h2>About</h2>
+<section class="section">
+<h2>About SHEBA WAY</h2>
+
+<p>
+SHEBA WAY is an AI-powered opportunity discovery platform helping students, graduates, and job seekers discover scholarships, jobs, internships, courses, government schemes, and career opportunities.
+</p>
+</section>
+
+<section class="section">
+<h2>Key Features</h2>
+
+<div class="cards">
+
 <div class="card">
-SHEBA WAY is an AI-powered opportunity discovery platform helping students and job seekers find scholarships, jobs, internships, courses and government schemes.
+<h3>🎓 Scholarships</h3>
+<p>Discover scholarships matching your profile.</p>
 </div>
 
-<h2>Features</h2>
+<div class="card">
+<h3>💼 Jobs</h3>
+<p>Find jobs and internships easily.</p>
+</div>
 
-<div class="card">🎓 Scholarships</div>
-<div class="card">💼 Jobs</div>
-<div class="card">📚 Courses</div>
-<div class="card">🏛 Government Schemes</div>
-<div class="card">🤖 SHEBA AI Mentor</div>
-<div class="card">📈 Career Roadmap</div>
+<div class="card">
+<h3>🤖 SHEBA AI</h3>
+<p>AI-powered career mentor and guidance.</p>
+</div>
+
+<div class="card">
+<h3>📈 Career Roadmap</h3>
+<p>Plan your future with personalized pathways.</p>
+</div>
+
+<div class="card">
+<h3>📅 Opportunity Calendar</h3>
+<p>Never miss deadlines again.</p>
+</div>
+
+<div class="card">
+<h3>📄 Resume Builder</h3>
+<p>Create ATS-friendly resumes instantly.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Our Vision</h2>
+
+<p>
+To become India's most intelligent AI-powered opportunity ecosystem connecting students and professionals with the right opportunities at the right time.
+</p>
 
 </section>
 
 <footer>
-© 2026 SHEBA WAY
+© 2026 SHEBA WAY | Your Way to Opportunities
 </footer>
 
 </body>
